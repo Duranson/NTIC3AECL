@@ -22,9 +22,21 @@ L'objectif principal d'une API est de limiter et de clarifier quels sont les act
 
 Une API a pour vocation de lier de multiples usagers provenant d'horizons divers en créant une méthode de communication peut dépendante du contexte d'utilisation et de la manière d'initier la communication.
 
+Un exemple d'API est celle du site https://genius.com. Genius fourni à la fois des paroles de musiques et des explications détaillées de ces paroles par des utilisateurs et/ou les créateurs. Genius fourni une [API](https://docs.genius.com/#/getting-started-h1) qui permet d'accéder à partir d'une application tierce aux données que contiennent leurs serveurs. Une fois un compte développeur créé chez Genius, on peut trouver toutes les informations nécessaire sur leur documentation. Par exemple, si l'on souhaite récupérer toutes les musiques d'un artiste, on s'intéressera à ce [bout de documentation](https://docs.genius.com/#artists-h2) :
+
+[IMAGE]
+
+On voit ici qu'il suffit de faire une requête HTTP de type GET avec l'id Genius de la musique pour obtenir en retour un objet JSON contenant toutes les musiques de l'artiste et dont on connait le format exact.
+
 ### REST
 
-**REST** (Reprensentationnal State Transfer) est une architecure d'API. C'est une convension qui permet 
+**REST** (Reprensentationnal State Transfer) est une architecure d'API. C'est une convension qui n'a pas de réalité matérielle, on dit qu'une architecture est REST ou RESTful lorsqu'elle répond à ces critères :
+
+Les architectures REST sont omniprésentes car très facilement compréhensibles et documentables. Un exemple est l'API de Spotify permettant de développer des application tierces utilisant des fonctionnalités de Spotify. Voici [un exemple de requête à l'API de Spotify](https://developer.spotify.com/documentation/web-api/reference/#category-artists), c'est un exemple-type de requête à une API REST :
+
+<img width="800" alt="Capture d’écran 2021-03-09 à 22 07 45" src="https://user-images.githubusercontent.com/44806936/110538110-e4f48280-8123-11eb-9194-a3ca8fe5d15f.png">
+
+On voit ici que la 
 
 ## 4 alternatives : SOAP, graphQL, gRPC et les microservices
 
@@ -43,6 +55,6 @@ Une API a pour vocation de lier de multiples usagers provenant d'horizons divers
 | **Type d'API** | **Forces** | **Faiblesses** | **Cas d'Usage** |
 | :-: |:-: |:-: | :-: |
 | **SOAP** | _Connu, agnostique au language et au protocole_ | _Messages volumineux et complexes à formuler_ |  |
-| **graphQL** |  |  |  |
-| **gRPC** |  |  |  |
-| **REST** | _Facile à mettre en oeuvre, connu_ | _lent_ | _Contrainte de temps, pas de grosse contrainte de performance, utilisation de l'API par des développeurs non expérimentés_ |
+| **graphQL** | _Très flexible, de plus en plus utilisé/documenté_ | _Infrstructure très complexe et couteuse à mettre en place_ |  |
+| **gRPC** | _Très rapide, bidirectionnel_ | _Peu flexible sur le modèle de données, Protocol Buffer à définir_ |  |
+| **REST** | _Facile à mettre en oeuvre, connu_ | _Lent, peu flexible_ | _Contrainte de temps, pas de grosse contrainte de performance, utilisation de l'API par des développeurs non expérimentés_ |
