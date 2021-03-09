@@ -36,13 +36,19 @@ Les architectures REST sont omniprésentes car très facilement compréhensibles
 
 <img width="800" alt="Capture d’écran 2021-03-09 à 22 07 45" src="https://user-images.githubusercontent.com/44806936/110538110-e4f48280-8123-11eb-9194-a3ca8fe5d15f.png">
 
-On voit ici que la 
+On voit ici que la requête HTTP est construite sur un schéma logique suivant les ressources disponibles :
+* La base est l'url de l'api (https://api.spotify.com/v1)
+* On s'interesse aux données d'artistes : /artists
+* Lequel ? : /{id}
+* Quelle sous-ressource veut-on ? : /albums
+
+La réponse se suffit à elle même et contient toutes les informations de la ressource ciblée : l'artiste et tous ses albums.
 
 ## 4 alternatives : SOAP, graphQL, gRPC et les microservices
 
 4 alternatives sont sorties du lot dès le début de mes recherches : **SOAP**, **graphQL**, **gRPC** et les **microservices**. Je vais décrire les **3 premières** alternatives car un **microservice** est le nom donné à un service ad hoc fourni par un serveur et qui ne répond à aucune des autres solutions.
 
-**ATTENTION** : ces alternatives ne sont pas des équivalents de l'architecture REST. Certaines sont des protocole, d'autres sont des framework ou encore des infrastructures. On parle ici d'alternatives dans un sens large mais elles ne sont pas strictement équivalentes.
+**ATTENTION** : ces alternatives ne sont pas des équivalents de l'architecture REST. Certaines sont des **protocole**, d'autres sont des **framework** ou encore des **infrastructures**. On parle ici d'alternatives dans un **sens large** mais elles ne sont pas strictement équivalentes.
 
 ### SOAP
 
