@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# API : Les alternatives à l'architecture REST
 
 You can use the [editor on GitHub](https://github.com/Duranson/NTIC3AECL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Ce site web a pour objectif de rendre compte du travail de veille que j'ai réalisé sur 3 mois dans le cadre d'un projet de dernière année à l'École Centrale de Lyon. Il présente les résultats de cette étude. Un [document complémentaire](https://github.com/Duranson/NTIC3AECL) présente les outils de veille utilisés, les justifications de ces choix ainsi que les difficultés que j'ai pu rencontrer avec chacun de ces outils.
 
-### Markdown
+## Motivations
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Définitions et point de départ de l'étude
 
-```markdown
-Syntax highlighted code block
+## 4 alternatives : SOAP, graphQL, gRPC et les microservices
 
-# Header 1
-## Header 2
-### Header 3
+### Decription du fonctionnement
 
-- Bulleted
-- List
+#### SOAP
 
-1. Numbered
-2. List
+#### graphQL
 
-**Bold** and _Italic_ and `Code` text
+#### gRPC
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Duranson/NTIC3AECL/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Bilan : Forces, faiblesses et cas d'usages
