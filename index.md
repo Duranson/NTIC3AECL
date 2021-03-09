@@ -24,9 +24,13 @@ Une API a pour vocation de lier de multiples usagers provenant d'horizons divers
 
 ### REST
 
-**REST** (Reprensentationnal State Transfer) est une architecure d'API.
+**REST** (Reprensentationnal State Transfer) est une architecure d'API. C'est une convension qui permet 
 
 ## 4 alternatives : SOAP, graphQL, gRPC et les microservices
+
+4 alternatives sont sorties du lot dès le début de mes recherches : **SOAP**, **graphQL**, **gRPC** et les **microservices**. Je vais décrire les **3 premières** alternatives car un **microservice** est le nom donné à un service ad hoc fourni par un serveur et qui ne répond à aucune des autres solutions.
+
+**ATTENTION** : ces alternatives ne sont pas des équivalents de l'architecture REST. Certaines sont des protocole, d'autres sont des framework ou encore des infrastructures. On parle ici d'alternatives dans un sens large mais elles ne sont pas strictement équivalentes.
 
 ### Decription du fonctionnement
 
@@ -37,3 +41,10 @@ Une API a pour vocation de lier de multiples usagers provenant d'horizons divers
 #### gRPC
 
 ### Bilan : Forces, faiblesses et cas d'usages
+
+| **Type d'API** | **Forces** | **Faiblesses** | **Cas d'Usage** |
+| - |:-: |:-: | -: |
+| **SOAP** | _Connu, agnostique au language et au protocole_ | _Messages volumineux et complexes à formuler_ |  |
+| **graphQL** |  |  |  |
+| **gRPC** |  |  |  |
+| **REST** | _Facile à mettre en oeuvre, connu_ | _lent_ | _Contrainte de temps, pas de grosse contrainte de performance, utilisation de l'API par des développeurs non expérimentés_ |
