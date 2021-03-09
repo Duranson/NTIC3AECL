@@ -14,6 +14,18 @@ Au cours de cette étude, je voulais prendre du recul sur le concept d'API REST 
 
 ## Définitions et point de départ de l'étude
 
+### API
+
+Une **API** (_Application Programming Interface_ ou _Interface de Programmation Applicative_ en français) est une interface entre des usagers et un fournisseur de service. Dans le contexte d'une infrastructure **client-serveur** (qui nous intéresse ici), c'est une norme de communication qui permet à des **client** de communiquer avec un **serveur** qui renverra en retour une réposne intelligible.
+
+L'objectif principal d'une API est de limiter et de clarifier quels sont les actions possibles d'un utilisateur vers un serveur et quelles sont les réponses que l'utilisateur peut espérer.
+
+Une API a pour vocation de lier de multiples usagers provenant d'horizons divers en créant une méthode de communication peut dépendante du contexte d'utilisation et de la manière d'initier la communication.
+
+### REST
+
+**REST** (Reprensentationnal State Transfer) est une architecure d'API.
+
 ## 4 alternatives : SOAP, graphQL, gRPC et les microservices
 
 ### Decription du fonctionnement
