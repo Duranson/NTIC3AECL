@@ -1,10 +1,16 @@
 # API : Les alternatives à l'architecture REST
 
-You can use the [editor on GitHub](https://github.com/Duranson/NTIC3AECL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Ce site web a pour objectif de rendre compte du travail de veille que j'ai réalisé sur 3 mois dans le cadre d'un projet de dernière année à l'École Centrale de Lyon. Il présente les résultats de cette étude. 
 
-Ce site web a pour objectif de rendre compte du travail de veille que j'ai réalisé sur 3 mois dans le cadre d'un projet de dernière année à l'École Centrale de Lyon. Il présente les résultats de cette étude. Un [document complémentaire](https://github.com/Duranson/NTIC3AECL) présente les outils de veille utilisés, les justifications de ces choix ainsi que les difficultés que j'ai pu rencontrer avec chacun de ces outils.
+Un [document](https://github.com/Duranson/NTIC3AECL) complémentaire présente les outils de veille utilisés, les justifications de ces choix ainsi que les difficultés que j'ai pu rencontrer avec chacun de ces outils.
 
 ## Motivations
+
+J'ai choisi ce sujet de veille car je ne connaissais pas assez le domaine et ressentait le besoin de mieux l'étudier et le comprendre. J'ai travaillé avec de nombreuses APIs lors de stages ou de projets personnels mais toutes étaient des API dites "REST". Je connaissais quelques principes qui faisaient d'une API une API "REST" mais **je ne les comprenais pas vraiment car je n'avais jamais vu de contre-exemple**. 
+
+Le vrai déclic pour moi a été lors d'un projet à Centrale. Nous devions créer une API pour un site web utilisant un back-end un petit peu poussé et nous sommes tout de suite parti sur une architecture REST. Je me suis en fait rendu compte que **je ne connaissais aucune autre architecture que REST**, et que je n'étais dans ce contexte pas convaincu de l'utilité d'orienter notre API par rapport aux ressources, mais que je n'avais pas d'autre solution que de partir là dessus par manque de temps pour me renseigner. J'ai alors ressenti une **frustration à faire un choix architectural par habitude plutôt que par pertinence**.
+
+Au cours de cette étude, je voulais prendre du recul sur le concept d'API REST qui est très à la mode et souvent mal utilisé. Je voulais expliciter ses **forces**, ses **faiblesses** et quelles **autres options** un ingénieur développeur a lorsqu'il veut créer une API afin que ce choix soit le plus **éclairé** et **transparent** possible.
 
 ## Définitions et point de départ de l'étude
 
