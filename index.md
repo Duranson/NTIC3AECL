@@ -32,15 +32,13 @@ Une API a pour vocation de lier de multiples usagers provenant d'horizons divers
 
 **ATTENTION** : ces alternatives ne sont pas des équivalents de l'architecture REST. Certaines sont des protocole, d'autres sont des framework ou encore des infrastructures. On parle ici d'alternatives dans un sens large mais elles ne sont pas strictement équivalentes.
 
-### Decription du fonctionnement
+### SOAP
 
-#### SOAP
+### graphQL
 
-#### graphQL
+### gRPC
 
-#### gRPC
-
-### Bilan : Forces, faiblesses et cas d'usages
+## Bilan : Forces, faiblesses et cas d'usages
 
 | **Type d'API** | **Forces** | **Faiblesses** | **Cas d'Usage** |
 | :-: |:-: |:-: | :-: |
