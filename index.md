@@ -43,7 +43,7 @@ Une API a pour vocation de lier de multiples usagers provenant d'horizons divers
 ### Bilan : Forces, faiblesses et cas d'usages
 
 | **Type d'API** | **Forces** | **Faiblesses** | **Cas d'Usage** |
-| - |:-: |:-: | -: |
+| :-: |:-: |:-: | :-: |
 | **SOAP** | _Connu, agnostique au language et au protocole_ | _Messages volumineux et complexes à formuler_ |  |
 | **graphQL** |  |  |  |
 | **gRPC** |  |  |  |
