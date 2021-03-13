@@ -24,7 +24,8 @@ Une API a pour vocation de lier de multiples usagers provenant d'horizons divers
 
 Un exemple d'API est celle du site https://genius.com. Genius fourni à la fois des paroles de musiques et des explications détaillées de ces paroles par des utilisateurs et/ou les créateurs. Genius fourni une [API](https://docs.genius.com/#/getting-started-h1) qui permet d'accéder à partir d'une application tierce aux données que contiennent leurs serveurs. Une fois un compte développeur créé chez Genius, on peut trouver toutes les informations nécessaire sur leur documentation. Par exemple, si l'on souhaite récupérer toutes les musiques d'un artiste, on s'intéressera à ce [bout de documentation](https://docs.genius.com/#artists-h2) :
 
-[IMAGE]
+<img width="800" alt="genius_screenshot" src="https://user-images.githubusercontent.com/44806936/111026659-b3154180-83eb-11eb-9475-ece6142a1381.png">
+
 
 On voit ici qu'il suffit de faire une requête HTTP de type GET avec l'id Genius de la musique pour obtenir en retour un objet JSON contenant toutes les musiques de l'artiste et dont on connait le format exact.
 
