@@ -52,6 +52,12 @@ La réponse se suffit à elle même et contient toutes les informations de la re
 
 ### SOAP
 
+SOAP est un protocole de communication basé sur le language XML. C'est le plus ancien protocole de communication entre machines distantes qui reste d'usage aujourd'hui. Le protocole SOAP est construit pour que **toutes les information à transmettre se trouvent dans le corps XML**.
+
+Les API basées sur le protocole SOAP ont la particularité d'être transparentes au protocole de communication. On peut ainsi construire une API qui utilise le protocole SMTP ou FTP contrairement à tous les autres protocoles qui utilsent TCP.
+
+L'autre conséquence de ce choix est que le protocole SOAP est agnostique au langage. Il est très simple de créer des modules SOAP dans n'importe quel langage car le seul point technique est la création du XML, la communication étant extrêmement basique.
+
 ### graphQL
 
 ### gRPC
