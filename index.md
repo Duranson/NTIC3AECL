@@ -67,7 +67,7 @@ L'autre conséquence de ce choix est que le protocole SOAP est **agnostique au l
 
 | **Type d'API** | **Forces** | **Faiblesses** | **Cas d'Usage** |
 | :-: |:-: |:-: | :-: |
-| **SOAP** | _Connu, agnostique au language et au protocole_ | _Messages volumineux et complexes à formuler_ |  |
-| **graphQL** | _Très flexible, de plus en plus utilisé/documenté_ | _Infrstructure très complexe et couteuse à mettre en place_ |  |
-| **gRPC** | _Très rapide, bidirectionnel_ | _Peu flexible sur le modèle de données, Protocol Buffer à définir_ |  |
+| **SOAP** | _Connu, agnostique au language et au protocole_ | _Messages volumineux et complexes à formuler_ | _Utilisation d'un protocole de communication original, maintenance de vieux systèmes_ |
+| **graphQL** | _Très flexible, de plus en plus utilisé/documenté_ | _Infrstructure très complexe et couteuse à mettre en place_ | _Fortes contraintes de performance en rapidité et transfer de données, les utilisateurs cibles cherchent la performance et non la simplicité, budget disponible_ |
+| **gRPC** | _Très rapide, bidirectionnel_ | _Peu flexible sur le modèle de données, Protocol Buffer à définir_ | _Très forte contrainte de performance en temps, utilisations de l'API définies et fixes_ |
 | **REST** | _Facile à mettre en oeuvre, connu_ | _Lent, peu flexible_ | _Contrainte de temps, pas de grosse contrainte de performance, utilisation de l'API par des développeurs non expérimentés_ |
