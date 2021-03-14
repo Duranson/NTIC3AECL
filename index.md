@@ -53,7 +53,7 @@ La réponse se suffit à elle même et contient toutes les informations de la re
 
 ### SOAP
 
-**SOAP** est un protocole de communication basé sur le language XML. C'est le plus ancien protocole de communication entre machines distantes qui reste d'usage aujourd'hui. Le protocole SOAP est construit pour que **toutes les information à transmettre se trouvent dans le corps XML**.
+**SOAP** (Simple Object Access Protocol) est un protocole de communication basé sur le language XML. C'est le plus ancien protocole de communication entre machines distantes qui reste d'usage aujourd'hui. Le protocole SOAP est construit pour que **toutes les information à transmettre se trouvent dans le corps XML**.
 
 Les API basées sur le protocole SOAP ont la particularité d'être **transparentes au protocole de communication**. On peut ainsi construire une API qui utilise le protocole SMTP ou FTP contrairement à tous les autres protocoles qui utilsent TCP.
 
@@ -61,13 +61,15 @@ L'autre conséquence de ce choix est que le protocole SOAP est **agnostique au l
 
 ### graphQL
 
-GraphQL est un langage de requête et un environnement d'execution permettant d'exposer un serveur à des client sous la forme de requêtes pour accéder aux ressources. C'est une infrastructure assez lourde à mettre en place mais qui est de plus en plus utilisé et documenté.
+**GraphQL** est un langage de requête et un environnement d'execution permettant d'exposer un serveur à des client sous la forme de requêtes pour accéder aux ressources. C'est une infrastructure assez lourde à mettre en place mais qui est de plus en plus utilisé et documenté.
 
 La principale conséquence d'une API GraphQL est que la réponse du serveur est définie par le client, qui peut donc cibler une ressource précise et filtrée et ainsi limiter drastiquement la quantité de donnée transférée.
 
 ### gRPC
 
+**gRPC** (google-based Remote Procedural Call) est un framework initialement développé par Google. Il s'agit d'une architecture de RPC : une machine commande à distance l'execution d'une procédure sur une autre machine.
 
+gRPC utilise le protocole HTTP/2 qui introduit beaucoup d'améliorations par rapport à HTTP/1. C'est la seule alternative qui utilise les nouvelles fonctionnalités de HTTP/2. Par exemple, HTTP/2 autorise le multiplexage entre la requête et la réponse, ce qui réduit le temps d'attente. Aussi, des efforts sont fait pour limiter les requêtes "obligatoires" de HTTP/1 en envoyant des données nécessaires à l'utilisateur sans qu'il l'ait explicitement demandé.
 
 ## Bilan : Forces, faiblesses et cas d'usages
 
